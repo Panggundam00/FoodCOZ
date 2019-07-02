@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class ManagePage extends Component {
+class ManagePage extends Component {
     render() {
         return (
             <div>

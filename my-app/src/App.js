@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import ManagePage from './nextPage/ManagePage'
 
-function App() {
-  return (
+class App extends Component{
+  render(){
+    return (
     <div className="App">
       <div>
         <lebal>FoodCOZ</lebal>
@@ -25,7 +25,10 @@ function App() {
 
       <button><a href="/ManagePage">Submit</a></button>
     </div>
-  );
+
+    );
+  }
+
 }
 
 export default App;
