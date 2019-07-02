@@ -5,14 +5,14 @@ class ManagePage extends Component {
     render() {
         return (
             <div className="App">
-                <h1>Manage Store</h1>
+                <h1>Set Table</h1>
 
                 <div>
-                    <button><a href="/EditTable">Set table</a></button>
+                    <input placeholder="Enter number of table"></input>
                 </div>
-
                 <div>
-                    <button><a>Set menu</a></button>
+                    <button>Accept</button>
+                    <button>Decline</button>
                 </div>
             </div>
         )
