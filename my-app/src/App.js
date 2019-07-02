@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
+import {BrowserRouter as Router, Route } from 'react-router-dom'
+import ManagePage from './ManagePage'
+import Login from './Login'
 
+<<<<<<< HEAD
 class App extends Component{
   render(){
     return (
@@ -29,6 +33,18 @@ class App extends Component{
     );
   }
 
+=======
+const App = () => {
+  return(
+    <Router >
+        <div>
+        <Route path="/" exact component={Login}/>
+        <Route path="/managePage" component={ManagePage}/>
+        </div>
+    </Router>
+        
+  )
+>>>>>>> pang
 }
 
 export default App;
