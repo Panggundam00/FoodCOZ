@@ -1,12 +1,28 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import './MEditMenu.css';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <header className="App-header">
+          
+          <p>
+          This is managing menu.
+          </p>
+          <input></input>
+          <button type="button">Add Menu</button>
+          
+          
+          
+        </header>
+        <header>
+          <button type="button">Proceed</button>
+          <button type="button">Cancel</button>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;

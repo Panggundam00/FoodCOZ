@@ -1,7 +1,11 @@
-.button {
+button {
     justify-content: center;
 
 }
-.body {
+body {
     background-color: coral;
 }
+.done {
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
